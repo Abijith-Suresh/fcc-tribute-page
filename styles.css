@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: e5e5e5;
+}
+
+#title {
+  font-family: "Homenaje", sans-serif;
+  font-size: 64px;
+  margin: 0 auto;
+  padding: 25px;
+  text-align: center;
+}
+
+#img-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#image {
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 100vh;
+  filter: grayscale(100%);
+}
+
+#img-caption {
+  align-items: center;
+  text-align: center;
+  font-style: italic;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Homenaje", sans-serif;
+  font-size: 32px;
+}
+
+h3 {
+  font-family: "Homenaje", sans-serif;
+  font-size: 24px;
+}
+
+ul {
+  list-style-type: disc;
+  line-height: 1.6;
+  margin: 0 auto 50px auto;
+  max-width: 550px;
+}
+
+li {
+  font-size: 16px;
+  margin: 16px 0;
+}
+
+p:last-of-type {
+  text-align: center;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  color: #ff4500;
+}
